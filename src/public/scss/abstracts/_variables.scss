@@ -1,27 +1,32 @@
 // fonts
-$poppins: 'Poppins', sans-serif;
-$raleway: 'Raleway', sans-serif;
+$poppins: 'Poppins',
+sans-serif;
+$raleway: 'Raleway',
+sans-serif;
 
 //weights
 $weight-bold: 600;
 $weight-semi-bold: 700;
 
 // containers
-$container-one: 1140px; // 1120 + padding: 0 20px;
-$container-two: 1285px; // 1245 + padding: 0 20px;
-$container-three: 980px; // 940 + padding: 0 20px;
+$container: 1140px; // 1120 + padding: 0 20px;
+$container-2: 1285px; // 1245 + padding: 0 20px;
+$container-3: 980px; // 940 + padding: 0 20px;
 
 // sizes
 $size-text: 16px;
-$size-title-about: 40px;
-$size-title-product: 30px;
+$size-big-title: 40px;
+$size-title: 30px;
 
 // colors
 $color-site: #e6a859;
-$color-site-shade-one: #e2b84c;
-$color-site-shade-two: #e4a655;
+$color-site-shade: #e2b84c;
+$color-site-shade-2: #e4a655;
 $color-title: #534847;
 $color-sub-title: #8d8180;
 
 // backgrounds
 $bg-block: #f9f9f9;
+$bg-body-blue: rgba(111, 169, 196, 10);
+$bg-body-yellow: rgba(226, 184, 76, 10);
+$bg-body-silver: #f1f6f9;

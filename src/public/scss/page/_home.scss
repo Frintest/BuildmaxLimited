@@ -1,0 +1,149 @@
+@use '../abstracts/variables';
+
+/* Section about
+ * ========================================================================== */
+
+.page-about {
+	margin: 58px 0 0 0;
+	font-family: variables.$raleway;
+	color: variables.$color-title;
+
+	&__container {
+		display: flex;
+		justify-content: space-between;
+		height: 773px;
+	}
+
+	&__title {
+		font-size: 55px;
+		margin: 85px 0 0 0;
+		max-width: 642px;
+		line-height: 65px;
+	}
+
+	&__sub-title {
+		margin: 35px 0 0 0;
+		max-width: 430px;
+	}
+
+	&__read {
+		margin: 65px 0 0 37px;
+	}
+
+	&__preview {
+		background: url('../img/preview.png');
+		position: absolute;
+		right: 0;
+		width: 612px;
+		height: 773px;
+	}
+
+	&__btn-projects {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		padding: 32px 98px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border: none;
+		font-size: variables.$size-text;
+		font-family: variables.$raleway;
+		color: variables.$color-title;
+		cursor: pointer;
+	}
+
+	&__arrow {
+		margin: 0 0 0 15px;
+	}
+}
+
+
+/* Section history
+ * ========================================================================== */
+
+.page-history {
+	margin: 200px 0 0 0;
+
+	&__container {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__title {
+		max-width: 340px;
+		margin: 0;
+		line-height: 47px;
+	}
+
+	&__design-info {
+		margin: 20px 0 0 37px;
+	}
+
+	&__block-info {
+		max-width: 580px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-end;
+	}
+
+	&__sub-title {
+		max-width: 580px;
+		margin: 55px 0 0 0;
+	}
+
+	&__sub-title:first-child {
+		margin: 72px 0 0 0;
+	}
+
+	&__btn-lorem {
+		margin: 88px 0 0 0;
+		color: variables.$color-site-shade-2;
+		text-decoration: none;
+	}
+}
+
+
+/* Section services
+ * ========================================================================== */
+
+.page-services {
+	&__container {
+		margin: 260px auto 0 auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	&__wrap {
+		width: 100%;
+		margin: 90px 0 0 0;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__title {
+		width: 265px;
+		margin: 0;
+		text-align: center;
+	}
+}
+
+
+/* Section projects
+ * ========================================================================== */
+.page-projects {
+	&__container {
+		margin: 145px auto 0 auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	&__wrap {
+		width: 100%;
+		margin: 64px;
+		display: flex;
+		justify-content: space-between;
+	}
+}

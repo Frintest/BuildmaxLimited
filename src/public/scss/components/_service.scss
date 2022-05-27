@@ -1,0 +1,25 @@
+@use '../abstracts/variables';
+
+.page-services {
+	&__block {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		font-family: variables.$poppins;
+		max-width: 200px;
+	}
+
+	&__title-service {
+		max-width: 140px;
+		margin: 28px 0 0 0;
+		font-size: 18px;
+		color: variables.$color-title;
+		text-align: center;
+		line-height: 21px;
+	}
+
+	&__sub-title {
+		max-width: 176px;
+		text-align: center;
+	}
+}

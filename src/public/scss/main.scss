@@ -2,7 +2,13 @@
 
 @import 'abstracts/variables';
 
-@import 'base/typography',
-		'base/sanitize';
+@import 'base/sanitize',
+		'base/base',
+		'base/typography';
+
+@import 'components/page-header',
+		'components/advantage',
+		'components/btn-orange',
+		'components/service';
 
 @import 'page/home';

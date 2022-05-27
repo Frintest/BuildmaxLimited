@@ -1,0 +1,38 @@
+@use '../abstracts/variables';
+
+.page-header {
+	font-family: variables.$poppins;
+
+	&__container {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+
+	&__menu>ul {
+		display: flex;
+		align-items: center;
+		margin: 48px 0 0 0;
+	}
+
+	&__link {
+		padding: 0 15px;
+		font-size: variables.$size-text;
+		color: #000;
+	}
+
+	&__link:first-child {
+		padding: 0 15px 0 0;
+	}
+
+	&__btn-quote {
+		padding: 8px 10px;
+		margin: 0 0 0 5px;
+		background: variables.$color-site;
+		border: none;
+		font-size: variables.$size-text;
+		font-family: variables.$poppins;
+		color: #fff;
+		cursor: pointer;
+	}
+}

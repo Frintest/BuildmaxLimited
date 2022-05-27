@@ -1,0 +1,49 @@
+/* Page advantage
+ * ========================================================================== */
+
+.page-advantage {
+	margin: 320px 0 0 0;
+
+	&__block {
+		height: 498px;
+		display: flex;
+		justify-content: flex-end;
+
+		&-right {
+			justify-content: flex-start;
+			align-items: center;
+		}
+	}
+
+	&__image {
+		position: absolute;
+
+		&-left {
+			width: 651px;
+			height: 498px;
+			left: 0;
+		}
+
+		&-right {
+			width: 747px;
+			height: 496px;
+			right: 0;
+		}
+	}
+
+	&__big-title {
+		max-width: 255px;
+		margin: 0;
+		line-height: 47px;
+
+	}
+
+	&__sub-title {
+		max-width: 580px;
+		margin: 35px 0 0 0;
+
+		&-right {
+			max-width: 510px;
+		}
+	}
+}

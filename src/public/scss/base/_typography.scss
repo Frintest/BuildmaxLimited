@@ -23,3 +23,29 @@
 	font-display: swap;
 	src: url('../fonts/raleway-bold.woff') format('woff');
 }
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.orange-text {
+	color: variables.$color-site-shade;
+}
+
+.big-title {
+	font-size: variables.$size-big-title;
+	font-family: variables.$raleway;
+	color: variables.$color-title;
+}
+
+.title {
+	font-size: variables.$size-title;
+	font-family: variables.$raleway;
+	color: variables.$color-title;
+}
+
+.sub-title {
+	font-size: variables.$size-text;
+	font-family: variables.$poppins;
+	color: variables.$color-sub-title;
+}

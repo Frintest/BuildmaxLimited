@@ -69,7 +69,16 @@ module.exports = {
 				}
 			},
 
-			// * ----- gltf/glb ====
+			// * ----- json -----
+			{
+				test: /\.(json)$/i,
+				type: 'asset/resource',
+				generator: {
+					filename: 'json/[name][ext]'
+				}
+			},
+
+			// * ----- gltf/glb -----
 			{
 				test: /\.(gltf|glb)$/i,
 				type: 'asset/resource',

@@ -1,0 +1,15 @@
+{
+  "projects": [{
+      "title": "Lawyes Hub kenya",
+      "url": "../public/img/projects/1.png"
+    },
+    {
+      "title": "E.A.C Arusha",
+      "url": "../public/img/projects/2.png"
+    },
+    {
+      "title": "Transnational Bank",
+      "url": "../public/img/projects/3.png"
+    }
+  ]
+}

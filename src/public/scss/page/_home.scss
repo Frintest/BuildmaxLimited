@@ -153,3 +153,37 @@
 		flex-wrap: wrap;
 	}
 }
+
+
+/* Section gallery
+ * ========================================================================== */
+
+.page-gallery {
+	&__container {
+		margin: 220px auto 0 auto;
+	}
+
+	&__text-wrap {
+		padding: 0 220px 0 0;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__title {
+		margin: 0;
+	}
+
+	&__design-info {
+		margin: 40px 0 0 37px;
+	}
+
+	&__sub-title {
+		max-width: 290px;
+		margin: 40px 0 0 0;
+	}
+
+	&__image {
+		max-width: 1100px;
+		margin: 60px 0 0 0;
+	}
+}

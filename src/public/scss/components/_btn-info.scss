@@ -1,0 +1,21 @@
+@use '../abstracts/variables';
+
+.btn-info {
+	font-family: variables.$poppins;
+	font-size: 14px;
+	color: variables.$color-site-shade;
+	text-decoration: none;
+	position: relative;
+	display: block;
+
+	&::before {
+		content: '';
+		position: absolute;
+		top: 50%;
+		transform: translate(0, -50%);
+		left: -37px;
+		width: 25px;
+		height: 1px;
+		background: variables.$color-site-shade;
+	}
+}

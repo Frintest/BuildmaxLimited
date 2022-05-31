@@ -4,7 +4,6 @@
  * ========================================================================== */
 
 .page-about {
-	margin: 58px 0 0 0;
 	font-family: variables.$raleway;
 	color: variables.$color-title;
 
@@ -15,15 +14,15 @@
 	}
 
 	&__title {
-		font-size: 55px;
-		margin: 85px 0 0 0;
 		max-width: 642px;
+		margin: 85px 0 0 0;
+		font-size: 55px;
 		line-height: 65px;
 	}
 
 	&__sub-title {
-		margin: 35px 0 0 0;
 		max-width: 430px;
+		margin: 35px 0 0 0;
 	}
 
 	&__read {
@@ -48,9 +47,7 @@
 		align-items: center;
 		border: none;
 		font-size: variables.$size-text;
-		font-family: variables.$raleway;
-		color: variables.$color-title;
-		cursor: pointer;
+		background: variables.$bg-block;
 	}
 
 	&__arrow {
@@ -63,7 +60,7 @@
  * ========================================================================== */
 
 .page-history {
-	margin: 200px 0 0 0;
+	margin: 230px 0 0 0;
 
 	&__container {
 		display: flex;
@@ -72,7 +69,6 @@
 
 	&__title {
 		max-width: 340px;
-		margin: 0;
 		line-height: 47px;
 	}
 
@@ -93,13 +89,12 @@
 	}
 
 	&__sub-title:first-child {
-		margin: 72px 0 0 0;
+		margin: 0;
 	}
 
 	&__btn-lorem {
 		margin: 88px 0 0 0;
 		color: variables.$color-site-shade-2;
-		text-decoration: none;
 	}
 }
 
@@ -109,6 +104,7 @@
 
 .page-services {
 	&__container {
+		max-width: variables.$container-2;
 		margin: 260px auto 0 auto;
 		display: flex;
 		flex-direction: column;
@@ -125,7 +121,6 @@
 
 	&__title {
 		width: 265px;
-		margin: 0;
 		text-align: center;
 	}
 }
@@ -135,14 +130,11 @@
  * ========================================================================== */
 .page-projects {
 	&__container {
+		max-width: variables.$container-2;
 		margin: 145px auto 0 auto;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-	}
-
-	&__title {
-		margin: 0;
 	}
 
 	&__wrap {
@@ -169,21 +161,16 @@
 		justify-content: space-between;
 	}
 
-	&__title {
-		margin: 0;
-	}
-
 	&__design-info {
 		margin: 40px 0 0 37px;
 	}
 
 	&__sub-title {
 		max-width: 290px;
-		margin: 40px 0 0 0;
 	}
 
 	&__image {
-		max-width: 1100px;
+		width: 1130px;
 		margin: 60px 0 0 0;
 	}
 }

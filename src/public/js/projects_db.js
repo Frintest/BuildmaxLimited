@@ -19,11 +19,11 @@ fetch('./json/projects_db.json')
 			}
 
 			container.insertAdjacentHTML('beforeend', `
-				<div class="page-projects__image" style="background: url(${URL});">
+				<a href="#!" class="page-projects__image" style="background: url(${URL});">
 					<div class="page-projects__block">
 						<h5 class="page-projects__heading">${title}</h5>
 					</div>
-				</div>
+				</a>
 			`);
 		}
 	});

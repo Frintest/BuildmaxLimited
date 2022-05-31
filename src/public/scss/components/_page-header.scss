@@ -2,37 +2,40 @@
 
 .page-header {
 	font-family: variables.$poppins;
+	font-size: variables.$size-text;
 
 	&__container {
 		display: flex;
 		justify-content: flex-end;
 		align-items: center;
+		padding: 55px 0;
 	}
 
 	&__menu>ul {
 		display: flex;
 		align-items: center;
-		margin: 48px 0 0 0;
 	}
 
-	&__link {
+	&__item {
 		padding: 0 15px;
-		font-size: variables.$size-text;
-		color: #000;
 	}
 
-	&__link:first-child {
+	&__item:first-child {
 		padding: 0 15px 0 0;
 	}
 
+	&__item:last-of-type {
+		padding: 0 0 0 15px;
+	}
+
+	&__link {
+		color: #000;
+	}
+
 	&__btn-quote {
+		margin: 0 0 0 25px;
 		padding: 8px 10px;
-		margin: 0 0 0 5px;
 		background: variables.$color-site;
-		border: none;
-		font-size: variables.$size-text;
-		font-family: variables.$poppins;
 		color: #fff;
-		cursor: pointer;
 	}
 }

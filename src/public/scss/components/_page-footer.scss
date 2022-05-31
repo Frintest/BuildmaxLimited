@@ -1,0 +1,48 @@
+@use '../abstracts/variables';
+
+.page-footer {
+	background: #282322;
+	padding: 82px 0 68px 0;
+	font-family: variables.$poppins;
+	color: #fff;
+}
+
+.footer {
+	&-top {
+		&__title {
+			color: #fff;
+		}
+
+		&__sub-title {
+			color: #fff;
+		}
+	}
+
+	&-bottom {
+		font-family: variables.$poppins;
+		color: #fff;
+
+		&__container {
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+		}
+
+		&__menu>ul {
+			margin: 25px 0 0 0;
+		}
+
+		&__menu>ul>li {
+			color: #fff;
+			opacity: .6;
+		}
+	}
+}
+
+.copy {
+	width: 100%;
+	margin: 0;
+	display: block;
+	text-align: center;
+	color: #fff;
+}

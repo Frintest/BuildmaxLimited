@@ -5,7 +5,6 @@
 		display: flex;
 		justify-content: center;
 		flex-wrap: wrap;
-		font-family: variables.$poppins;
 		max-width: 200px;
 	}
 
@@ -13,6 +12,7 @@
 		max-width: 140px;
 		margin: 28px 0 0 0;
 		font-size: 18px;
+		font-family: variables.$raleway;
 		color: variables.$color-title;
 		text-align: center;
 		line-height: 21px;
@@ -20,6 +20,7 @@
 
 	&__sub-title {
 		max-width: 176px;
+		margin: 15px 0 0 0;
 		text-align: center;
 	}
 }

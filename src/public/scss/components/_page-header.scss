@@ -1,6 +1,11 @@
 @use '../abstracts/variables';
 
 .page-header {
+	position: fixed;
+	z-index: 15;
+	width: 100%;
+	right: 0;
+	background: #fff;
 	font-family: variables.$poppins;
 	font-size: variables.$size-text;
 
@@ -8,7 +13,7 @@
 		display: flex;
 		justify-content: flex-end;
 		align-items: center;
-		padding: 55px 0;
+		padding: 55px 20px;
 	}
 
 	&__menu>ul {

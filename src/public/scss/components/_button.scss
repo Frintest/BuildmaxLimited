@@ -2,7 +2,8 @@
 
 .btn {
 	max-width: 220px;
-	padding: 12px 10px;
+	text-align: center;
+	padding: 12px;
 	display: block;
 	background: variables.$color-site;
 	font-size: variables.$size-text;
@@ -39,6 +40,8 @@
 }
 
 .btn_silver {
+	max-width: 340px;
+	text-align: center;
 	padding: 32px 98px;
 	display: flex;
 	justify-content: center;

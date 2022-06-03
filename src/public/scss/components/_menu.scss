@@ -1,6 +1,7 @@
 @use '../abstracts/variables';
 
 .menu {
+	&,
 	&__list {
 		display: flex;
 		align-items: center;

@@ -6,12 +6,10 @@
 		'base/base',
 		'base/typography';
 
-@import 'components/btn-info',
-		'components/page-header',
-		'components/advantage',
-		'components/btn-orange',
-		'components/service',
+@import 'components/button',
+		'components/menu',
+		'components/header',
 		'components/project',
-		'components/page-footer';
+		'components/footer';
 
 @import 'page/home';

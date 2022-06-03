@@ -3,15 +3,15 @@
 /* Section about
  * ========================================================================== */
 
-.page-about {
+.about {
 	margin: 150px;
 	font-family: variables.$raleway;
 	color: variables.$color-title;
 
 	&__container {
+		height: 773px;
 		display: flex;
 		justify-content: space-between;
-		height: 773px;
 	}
 
 	&__title {
@@ -21,38 +21,27 @@
 		line-height: 65px;
 	}
 
-	&__sub-title {
+	&__text {
 		max-width: 430px;
 		margin: 35px 0 0 0;
 	}
 
-	&__read {
+	&__btn-read {
 		margin: 65px 0 0 37px;
 	}
 
 	&__preview {
-		background: url('../img/preview.png');
-		position: absolute;
-		right: 0;
 		width: 612px;
 		height: 773px;
+		position: absolute;
+		right: 0;
+		background: url('../img/preview.png');
 	}
 
-	&__btn-projects {
+	&__btn-silver {
 		position: absolute;
 		bottom: 0;
 		right: 0;
-		padding: 32px 98px;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		border: none;
-		font-size: variables.$size-text;
-		background: variables.$bg-block;
-	}
-
-	&__arrow {
-		margin: 0 0 0 15px;
 	}
 }
 
@@ -60,7 +49,7 @@
 /* Section history
  * ========================================================================== */
 
-.page-history {
+.history {
 	margin: 230px 0 0 0;
 
 	&__container {
@@ -73,29 +62,77 @@
 		line-height: 47px;
 	}
 
-	&__design-info {
+	&__btn-design {
 		margin: 20px 0 0 37px;
 	}
 
-	&__block-info {
+	&__content {
 		max-width: 580px;
 		display: flex;
-		flex-wrap: wrap;
 		justify-content: flex-end;
+		flex-wrap: wrap;
 	}
 
-	&__sub-title {
+	&__text:not(:first-child) {
 		max-width: 580px;
 		margin: 55px 0 0 0;
 	}
 
-	&__sub-title:first-child {
-		margin: 0;
-	}
-
 	&__btn-lorem {
 		margin: 88px 0 0 0;
+		font-size: variables.$size-text;
+		font-family: variables.$poppins;
 		color: variables.$color-site-shade-2;
+	}
+}
+
+
+/* Section advantages
+ * ========================================================================== */
+
+.advantages {
+	margin: 320px 0 0 0;
+}
+
+.advantage {
+	height: 498px;
+	display: flex;
+	justify-content: flex-end;
+
+	&:not(:first-child) {
+		margin: 65px 0 0 0;
+	}
+
+	&_right {
+		justify-content: flex-start;
+	}
+
+	&__image {
+		position: absolute;
+		width: 651px;
+		height: 498px;
+
+		&_left {
+			left: 0;
+		}
+
+		&_right {
+			right: 0;
+		}
+	}
+
+	&__title_big {
+		max-width: 255px;
+		line-height: 47px;
+	}
+
+	&__text {
+		max-width: 510px;
+		margin: 35px 0 0 0;
+	}
+
+	&__btn {
+		margin: 65px 0 0 0;
 	}
 }
 
@@ -103,7 +140,7 @@
 /* Section services
  * ========================================================================== */
 
-.page-services {
+.services {
 	&__container {
 		max-width: variables.$container-2;
 		margin: 260px auto 0 auto;
@@ -112,7 +149,7 @@
 		align-items: center;
 	}
 
-	&__wrap {
+	&__wrap-content {
 		width: 100%;
 		margin: 90px 0 0 0;
 		display: flex;
@@ -126,10 +163,33 @@
 	}
 }
 
+.service {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	max-width: 200px;
+
+	&__title {
+		max-width: 140px;
+		margin: 28px 0 0 0;
+		font-size: 18px;
+		font-family: variables.$raleway;
+		color: variables.$color-title;
+		text-align: center;
+		line-height: 21px;
+	}
+
+	&__text {
+		max-width: 176px;
+		margin: 15px 0 0 0;
+		text-align: center;
+	}
+}
+
 
 /* Section projects
  * ========================================================================== */
-.page-projects {
+.projects {
 	&__container {
 		max-width: variables.$container-2;
 		margin: 145px auto 0 auto;
@@ -138,7 +198,7 @@
 		align-items: center;
 	}
 
-	&__wrap {
+	&__wrap-content {
 		width: 100%;
 		margin: 44px 0 0 0;
 		display: flex;
@@ -151,22 +211,22 @@
 /* Section gallery
  * ========================================================================== */
 
-.page-gallery {
+.gallery {
 	&__container {
 		margin: 220px auto 0 auto;
 	}
 
-	&__text-wrap {
+	&__block-text {
 		padding: 0 220px 0 0;
 		display: flex;
 		justify-content: space-between;
 	}
 
-	&__design-info {
+	&__btn-design {
 		margin: 40px 0 0 37px;
 	}
 
-	&__sub-title {
+	&__text {
 		max-width: 290px;
 	}
 

@@ -2,13 +2,26 @@
 
 .wrapper {
 	max-width: 1440px;
+	min-height: 100%;
 	margin: 0 auto;
 	position: relative;
 	overflow: hidden;
+
+	// footer bottom site
+	display: flex;
+	flex-direction: column;
 }
 
-.container {
+[class*="__container"] {
 	max-width: variables.$container;
 	margin: 0 auto;
 	padding: 0 20px;
+}
+
+.main {
+	flex: 1 1 auto;
+}
+
+.fill_yellow {
+	fill: variables.$color-site;
 }

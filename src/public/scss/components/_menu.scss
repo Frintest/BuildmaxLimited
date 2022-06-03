@@ -1,0 +1,16 @@
+@use '../abstracts/variables';
+
+.menu {
+	&__list {
+		display: flex;
+		align-items: center;
+	}
+
+	&__item:not(:first-child) {
+		padding: 0 0 0 30px;
+	}
+
+	&__link {
+		color: #000;
+	}
+}

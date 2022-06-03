@@ -1,0 +1,53 @@
+@use '../abstracts/variables';
+
+.btn {
+	max-width: 220px;
+	padding: 12px 10px;
+	display: block;
+	background: variables.$color-site;
+	font-size: variables.$size-text;
+	font-family: variables.$poppins;
+	color: #fff;
+	text-align: center;
+}
+
+.btn_small {
+	margin: 0 0 0 25px;
+	padding: 8px 10px;
+	background: variables.$color-site;
+	color: #fff;
+}
+
+.btn_info {
+	font-family: variables.$poppins;
+	font-size: 14px;
+	color: variables.$color-site-shade;
+	text-decoration: none;
+	position: relative;
+	display: block;
+
+	&::before {
+		content: '';
+		position: absolute;
+		top: 50%;
+		transform: translate(0, -50%);
+		left: -37px;
+		width: 25px;
+		height: 1px;
+		background: variables.$color-site-shade;
+	}
+}
+
+.btn_silver {
+	padding: 32px 98px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	font-size: variables.$size-text;
+	background: variables.$bg-block;
+
+	&__arrow {
+		margin: 0 0 0 15px;
+	}
+}

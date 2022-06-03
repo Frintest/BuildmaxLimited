@@ -28,11 +28,7 @@
 	text-transform: uppercase;
 }
 
-.orange-text {
-	color: variables.$color-site-shade;
-}
-
-.big-title {
+.title_big {
 	font-size: variables.$size-big-title;
 	font-family: variables.$raleway;
 	color: variables.$color-title;
@@ -44,8 +40,12 @@
 	color: variables.$color-title;
 }
 
-.sub-title {
+.text {
 	font-size: variables.$size-text;
 	font-family: variables.$poppins;
 	color: variables.$color-sub-title;
+}
+
+.text_orange {
+	color: variables.$color-site-shade;
 }

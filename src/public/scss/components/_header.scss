@@ -1,0 +1,19 @@
+@use '../abstracts/variables';
+
+.header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 30;
+	background: #fff;
+	font-family: variables.$poppins;
+	font-size: variables.$size-text;
+
+	&__container {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		padding: 55px 20px;
+	}
+}

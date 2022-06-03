@@ -1,6 +1,6 @@
 'use strict';
 
-const container = document.querySelector('.page-projects__wrap');
+const container = document.querySelector('.projects__wrap-content');
 
 fetch('./json/projects_db.json')
 	.then(response => response.json())
@@ -19,9 +19,9 @@ fetch('./json/projects_db.json')
 			}
 
 			container.insertAdjacentHTML('beforeend', `
-				<a href="#!" class="page-projects__image" style="background: url(${URL});">
-					<div class="page-projects__block">
-						<h5 class="page-projects__heading">${title}</h5>
+				<a href="#!" class="projects__block project" style="background: url(${URL});">
+					<div class="project__block-title">
+						<h5 class="project__title">${title}</h5>
 					</div>
 				</a>
 			`);

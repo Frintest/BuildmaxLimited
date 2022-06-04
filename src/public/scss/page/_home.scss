@@ -4,7 +4,7 @@
  * ========================================================================== */
 
 .about {
-	margin: 150px;
+	margin: 150px 0 0 0;
 	font-family: variables.$raleway;
 	color: variables.$color-title;
 
@@ -50,9 +50,10 @@
  * ========================================================================== */
 
 .history {
-	margin: 230px 0 0 0;
+	position: relative;
 
 	&__container {
+		padding: 230px 0 0 0;
 		display: flex;
 		justify-content: space-between;
 	}
@@ -67,7 +68,7 @@
 	}
 
 	&__content {
-		max-width: 580px;
+		max-width: 575px;
 		display: flex;
 		justify-content: flex-end;
 		flex-wrap: wrap;
@@ -92,6 +93,7 @@
 
 .advantages {
 	margin: 320px 0 0 0;
+	position: relative;
 }
 
 .advantage {
@@ -100,7 +102,7 @@
 	justify-content: flex-end;
 
 	&:not(:first-child) {
-		margin: 65px 0 0 0;
+		margin: 180px 0 0 0;
 	}
 
 	&_right {
@@ -143,6 +145,7 @@
 .services {
 	&__container {
 		max-width: variables.$container-2;
+		position: relative;
 		margin: 260px auto 0 auto;
 		display: flex;
 		flex-direction: column;
@@ -212,6 +215,8 @@
  * ========================================================================== */
 
 .gallery {
+	position: relative;
+
 	&__container {
 		margin: 220px auto 0 auto;
 	}

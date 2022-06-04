@@ -25,3 +25,61 @@
 .fill_yellow {
 	fill: variables.$color-site;
 }
+
+[class*="bg-svg"] {
+	position: absolute;
+}
+
+.bg-svg {
+	&-1 {
+		left: 0;
+		margin: 40px 0 0 0;
+	}
+
+	&-2 {
+		left: 20px;
+		margin: calc(773px - 225px) 0 0 0;
+	}
+
+	&-3 {
+		right: 28px;
+		top: 22px;
+	}
+
+	&-4 {
+		left: 58px;
+		bottom: -178px;
+	}
+
+	&-5 {
+		right: 0;
+		top: 240px;
+	}
+
+	&-block-1 {
+		width: 1130px;
+		height: 660px;
+		right: 14px;
+		background: variables.$bg-block;
+		z-index: -1;
+
+		&_right {
+			top: -(calc((660px - 498px) / 2));
+			right: 14px;
+		}
+
+		&_left {
+			left: 14px;
+			bottom: -(calc((660px - 498px) / 2));
+		}
+	}
+
+	&-block-2 {
+		width: 1300px;
+		height: 816px;
+		top: -100px;
+		left: 0;
+		background: variables.$bg-block;
+		z-index: -2;
+	}
+}

@@ -1,6 +1,7 @@
 @use '../abstracts/variables';
 
 .footer {
+	margin: 140px 0 0 0;
 	background: #282322;
 	padding: 80px 0;
 	font-family: variables.$poppins;
@@ -55,14 +56,14 @@
 
 		&__submit {
 			max-width: 100%;
+
+			&__social-item {
+				transition: variables.$transition-hover;
+			}
 		}
 
-		&__social-item {
+		&__social-item:not(:first-child) {
 			margin: 15px 0 0 0;
-
-			&:first-child {
-				margin: 0;
-			}
 		}
 
 		&__social-link {
@@ -75,7 +76,12 @@
 		}
 
 		&__path {
+			transition: variables.$transition-hover;
 			fill: #fff;
+		}
+
+		&__social-text {
+			transition: variables.$transition-hover;
 		}
 	}
 
@@ -89,12 +95,18 @@
 		}
 
 		&__menu {
+			margin: -5px;
+
 			&>ul {
 				margin: 25px 0 0 0;
 
 				&>li>a {
 					color: #fff;
 					opacity: .6;
+
+					&::before {
+						background: #fff;
+					}
 				}
 			}
 		}

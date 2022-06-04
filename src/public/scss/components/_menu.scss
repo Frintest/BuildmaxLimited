@@ -1,6 +1,7 @@
 @use '../abstracts/variables';
 
 .menu {
+
 	&,
 	&__list {
 		display: flex;
@@ -8,10 +9,22 @@
 	}
 
 	&__item:not(:first-child) {
-		padding: 0 0 0 30px;
+		padding: 5px 0 5px 30px;
 	}
 
 	&__link {
+		position: relative;
 		color: #000;
+
+		&::before {
+			content: '';
+			position: absolute;
+			bottom: -8px;
+			left: 0;
+			width: 0%;
+			height: 2px;
+			background: #000;
+			transition: variables.$transition-hover;
+		}
 	}
 }

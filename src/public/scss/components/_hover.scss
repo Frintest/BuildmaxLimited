@@ -1,0 +1,97 @@
+@use '../abstracts/variables';
+
+.btn {
+	transition: variables.$transition-hover;
+
+	&:hover {
+		background: variables.$btn-hover;
+	}
+
+	&:active {
+		transition: variables.$transition-active;
+		background: variables.$color-site;
+	}
+}
+
+.btn_info {
+	transition: variables.$transition-hover;
+
+	&:hover {
+		color: variables.$btn-hover;
+
+		&::before {
+			transition: variables.$transition-hover;
+			background: variables.$btn-hover;
+		}
+	}
+
+	&:active {
+		transition: variables.$transition-active;
+		color: variables.$color-site;
+
+		&::before {
+			transition: variables.$transition-active;
+			background: variables.$color-site;
+		}
+	}
+}
+
+.btn_silver {
+	transition: variables.$transition-hover;
+
+	&:hover {
+		background: variables.$btn-hover-silver;
+	}
+
+	&:active {
+		transition: variables.$transition-active;
+		background: variables.$bg-block;
+	}
+}
+
+.history__btn-lorem {
+	transition: variables.$transition-hover;
+
+	&:hover {
+		color: variables.$btn-hover;
+	}
+
+	&:active {
+		transition: variables.$transition-active;
+		color: variables.$color-site-shade-2;
+	}
+}
+
+
+.menu__item {
+	&:hover {
+		&>a::before {
+			width: 100%;
+		}
+	}
+}
+
+
+.footer-top__social-item {
+	&:hover {
+		.footer-top__path {
+			fill: #ccc;
+		}
+
+		.footer-top__social-text {
+			color: #ccc;
+		}
+	}
+
+	&:active {
+		.footer-top__path {
+			transition: variables.$transition-active;
+			fill: #fff;
+		}
+
+		.footer-top__social-text {
+			transition: variables.$transition-active;
+			color: #fff;
+		}
+	}
+}
